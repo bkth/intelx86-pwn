@@ -6,4 +6,4 @@ all:
 	$(CC) $(CFLAGS) stage2.c gadgets.o
 
 clean:
-	rm stage2 gadgets.o .gadgets.s.swp
+	rm stage2 gadgets.o
