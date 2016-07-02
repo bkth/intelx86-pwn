@@ -24,8 +24,8 @@ void vulnerable(void)
 int main(void)
 {
 	/* disable buffering */
-	setvbuf( stdin, NULL, _IONBF, 0 );
-	setvbuf( stdout, NULL, _IONBF, 0 );
+	setvbuf(stdin, NULL, _IONBF, 0);
+	setvbuf(stdout, NULL, _IONBF, 0);
 
 	vulnerable();
 	exit(0);
