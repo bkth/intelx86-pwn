@@ -5,4 +5,4 @@ all:
 	$(CC) $(CFLAGS) stage1.c
 
 clean:
-	rm stage1
+	rm stage1 .gdb_history peda*

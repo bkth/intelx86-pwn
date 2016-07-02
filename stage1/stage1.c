@@ -15,6 +15,7 @@ void target(void)
 void vulnerable(void)
 {
 	char name[256];
+	printf("buffer is at %p\n", name);
 	printf("Hello, what is your name?\n");
 	scanf("%s", name);
 	printf("Welcome %s\n", name);	
